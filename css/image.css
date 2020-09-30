@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}   
+
+/* .cover{
+    background-image: url(/images/stevejobs.png);
+    width: 100%;
+    height: 50em;
+    background-repeat: no-repeat;
+} */
+
+/* .cover{
+    background-color: aqua; 
+} */
+
+/* To have the image on full screen always  */
+.home-cover{
+    /* margin-top: 60px; */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/images/homecover/kitchen-with-furniture-and-appliances-2724748.jpg);
+    width: 100%;
+    height: 100vh;   
+    position: relative;
+    max-width: 100%;
+    max-height: 92vh;
+    background-attachment: fixed;
+    background-position: 70%;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    filter: blur(0px) brightness(35%);
+}
+
+/* to have the image on responsive (not the same for mobile and web) and full size on browser */
+
+/* .steve img{
+    width: 100%;
+    height: 100%;
+    height: auto;
+    max-height: 90vh;
+    max-width: 100%;
+    position: relative;
+    filter: blur(0.3px) brightness(70%);
+    background-attachment: scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+.down-img{
+    text-align: center;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    /* background-color: black; */
+    /* opacity: 100%; */
+    /* color: black; */
+    /* opacity: 10%; */
+    /* padding: 20px; */
+    /* width: 100%; */
+    /* height: auto; */
+}
+
+
+.down-img p{
+    color: white;
+    text-emphasis: none;
+    letter-spacing: 0.3px;
+}
+
+.on-img{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity: 100%;
+    padding: 20px;
+    width: 100%;
+    height: auto;
+}
+.on-img p{
+    color: white;
+    text-emphasis: none;
+    letter-spacing: 0.3px;
+    font-weight: bold;
+}
+#scrolldown:hover{
+    color: rgb(170, 170, 170);
+}
+
+/* .on-img p:hover{
+    color: rgb(170, 170, 170);
+}
+.down-img p:hover{
+    color: rgb(170, 170, 170);
+} */
+
+#scrolldown{
+    /* position: absolute; */
+    color: white;
+    /* bottom: 0; */
+    /* padding-top: 100px; */
+}
+
+
+.on-img a button{
+    border: none;
+    font-size: 1.5em;
+    /* outline: 0; */
+    /* display: inline-block; */
+    margin-top: 70px;
+    font-weight: 600;
+    padding: 12px 40px 12px 40px;
+    color: black;
+    background-color: #FFE01B;
+    text-align: center;
+    cursor: pointer;
+}
+.on-img a button:hover{
+    background-color: #ffe11bce;
+}
+
+@media (max-width: 1020px){
+    .on-img{
+        top: 40%;
+    }
+}
+
+#on-img-p1{
+    font-size: 50px;
+    font-weight:900;
+    letter-spacing: -1.5px;
+}
+#on-img-p2{
+    font-size: 18px;
+    font-weight: 400;
+    white-space:pre-line;
+    margin-top: 30px;
+}
+@media (max-width:700px){
+    #on-img-p1{
+        font-size: 30px;
+    }
+    #on-img-p2{
+        font-size: 13px;
+    }
+}
+
+@media (max-width:700px){
+    .on-img a button{
+        padding: 10px 30px 10px 30px;
+        font-size: 1em;
+    }
+}

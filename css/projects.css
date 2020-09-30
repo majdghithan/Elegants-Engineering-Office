@@ -1,0 +1,217 @@
+.projects-container{
+    margin-left: 8vw;
+    margin-right: 8vw;
+    /* padding: 1em; */
+    /* border: 1px black solid; */
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 1.5em;
+    row-gap: 2em;
+    /* grid-gap: 1em; */
+    grid-auto-rows: minmax(450px, auto);
+}
+
+/* .projects-container:hover > div{
+    border: 1px black solid;
+} */
+
+
+
+@media screen and (min-width:1300px){
+    
+    .see-more{
+        margin-left: 8vw;
+        margin-right: 8vw;
+    }
+}
+
+@media screen and (max-width:1300px){
+    .projects-container{
+        grid-auto-rows: minmax(450px, auto);
+    }
+}
+
+
+.project1{
+    display: grid;
+    grid-template-rows: 90% 10%;
+    row-gap: 1em;
+    text-align: center;
+    cursor: pointer;
+
+    position: relative;
+}
+.project1-img{
+    width: 100%;
+    height: 100%;
+    background-image:url(/images/projects/dolphin/dolphin\ tower.jpg);
+    background-attachment: scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+.project2{
+    display: grid;
+    grid-template-rows: 90% 10%;
+    row-gap: 1em;
+    text-align: center;
+    cursor: pointer;
+}
+.project2-img{
+    width: 100%;
+    height: 100%;
+    background-image:url(/images/projects/dolphin/q3da.jpg);
+    background-attachment: scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+.project3{
+    display: grid;
+    grid-template-rows: 90% 10%;
+    row-gap: 1em;
+    text-align: center;
+    cursor: pointer;
+}
+.project3-img{
+    width: 100%;
+    height: 100%;
+    background-image:url(/images/projects/dolphin/a\ \(2\).jpg);
+    background-attachment: scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+.project4{
+    display: grid;
+    grid-template-rows: 90% 10%;
+    row-gap: 1em;
+    text-align: center;
+    cursor: pointer;
+}
+.project4-img{
+    width: 100%;
+    height: 100%;
+    background-image:url(/images/projects/dolphin/a\ \(3\).jpg);
+    background-attachment: scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+
+/* overlay */
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #FFE01B;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+  }
+
+.project1:hover .overlay {
+    height: 10%;
+    opacity: 100%;
+  }
+.project2:hover .overlay {
+    height: 10%;
+    opacity: 100%;
+  }
+.project3:hover .overlay {
+    height: 10%;
+    opacity: 100%;
+  }
+.project4:hover .overlay {
+    height: 10%;
+    opacity: 100%;
+  }
+
+  .projects-container > div:hover{
+    filter: opacity(98%);
+}
+
+.text {
+    color: rgb(0, 0, 0);
+    font-size: 17px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    /* letter-spacing: -1px; */
+    filter: brightness(100%);
+    width: 100%;
+  }
+
+  .project1:hover #project-name{
+      visibility: hidden;
+  }
+  .project2:hover #project-name{
+      visibility: hidden;
+  }
+  .project3:hover #project-name{
+      visibility: hidden;
+  }
+  .project4:hover #project-name{
+      visibility: hidden;
+  }
+
+#project-name{
+    font-weight: 900;
+}
+
+@media screen and (max-width:1100px){
+    .projects-container{
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-rows: minmax(400px, auto);
+    }
+   
+}
+@media screen and (max-width:600px){
+    .projects-container{
+        grid-template-columns: repeat(1, 1fr);
+        grid-auto-rows: minmax(400px, auto);
+    }
+    .text{
+        font-size: 15px;
+    }
+
+}
+
+.see-more{
+    margin-left: 8vw;
+    margin-right: 8vw;
+    margin-top: 30px;
+    height: auto;
+    text-align:center;
+}
+
+.see-more p{
+    font-size: 1em;
+    border: 1px black solid;
+    display: inline;
+    cursor: pointer;
+    padding: 10px;
+    text-align: center;
+}
+
+.see-more p:hover {
+    height: auto;
+    background-color: #FFE01B;
+    border-color: white;
+    
+}
+
+@media (max-width:740px){
+    .see-more p{
+        display: block;
+    }
+}

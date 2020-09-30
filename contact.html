@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Elegants</title>
+    <link rel="icon" href="/images/logo/logo.jpg">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/sidemenu.css">
+    <link rel="stylesheet" href="/css/footer.css">
+    <link rel="stylesheet" href="/css/contact-css/contact.css">
+
+</head>
+<body>
+     
+<nav class="navbar other-nav">
+    <a href="index.html" class="logo"><img src="/images/logo/logo.jpg" alt=""> </a>
+    <div class="logo-text"><p> Elegants office
+         Design & Decor</p></div>
+    
+    <ul id="menu">
+    <span style=" position: absolute; top: 20px; right: 7vw;">
+        <i class="fa fa-times fa-2x" aria-hidden="true" onclick="closeNav()"></i>
+    </span>
+    
+    <li ><a href="index.html">HOME</a></li>
+    <li><a href="portfolio.html">PORTFOLIO</a></li>
+    <li><a href="about.html">ABOUT</a></li>
+    <!-- <li><a href="services.html">SERVICES</a></li> -->
+    <li id="currentpage"><a href="contact.html">CONTACT</a></li>
+
+    <li class="dropdown" onclick="openLan()">
+        <a href="#">
+        <button onclick="openLan()" ><i class="fa fa-globe" aria-hidden="true" onclick="openLan()">
+        </i>
+        </button>
+        </a>
+    <ol class="dropdown-content" id="dropdown-content">
+        <a href="index.html">ENGLISH</a>
+        <a href="indexA.html">العربية</a>
+    </ol>
+    </li>
+    
+    <li class="social"> <ol><a href=""><i class="fa fa-facebook fa-1x" aria-hidden="true" style="color: white;"></a></i>
+        <a href=""><i class="fa fa-whatsapp fa-1x" aria-hidden="true" style="color: white;"></a></i>
+        <a href=""><i class="fa fa-instagram fa-1x" aria-hidden="true" style="color: white;"></a></i>
+        <a href=""><i class="fa fa-twitter fa-1x" aria-hidden="true" style="color: white;"></a></i>
+    </ol>
+           
+            
+    </li>
+    </ul>
+
+    <span class="hamburger" onclick="openNav()">
+    <i class="fa fa-bars fa-2x" aria-hidden="true"></i>
+    </span>
+</nav>
+<!-- CONTACT PAGE -->
+
+
+
+
+<div class="contact-us" style="margin-top: 60px;">
+    <div class="contact-us-text">
+        CONTACT US EASILY
+    </div>
+    <div class="contact-us-icons">
+        <a href=""><i class="fa fa-phone" aria-hidden="true"></i></a>
+        <a href=""><i class="fa fa-map-marker" aria-hidden="true"></i></a>
+        <a href=""><i class="fa fa-envelope-o" aria-hidden="true"></i></a>
+    </div>
+</div>
+<div class="wokring-cont">
+<div class="wokring-container">
+        Feel free to contact us during business hours, we would love to hear from you. 
+        <strong> Follow us on Social Media </strong>
+
+        <div style="white-space: normal;">
+            <a href="https://www.facebook.com/ElegantsEngineeringOffice/" target="_blank"><i class="fa fa-facebook fa-2x" aria-hidden="true"></a></i>
+            <a href=""><i class="fa fa-whatsapp fa-2x" aria-hidden="true"></a></i>
+            <a href=""><i class="fa fa-instagram fa-2x" aria-hidden="true"></a></i>
+            <a href=""><i class="fa fa-twitter fa-2x" aria-hidden="true"></a></i>
+        </div>
+        Get the latest news about our designs.
+</div>
+</div>
+<div class="opening-container">
+    <div class="hours-text" style="font-weight: 1000;">
+        BUSINESS HOURS
+    </div>
+    <div class="times-container">
+        <div class="day hours-text">
+<span>MON</span> 
+<span> TUE</span> 
+<span> WED</span> 
+<span> THU</span> 
+<span> FRI</span> 
+<span> SAT</span> 
+<span> SUN</span> 
+</div>
+        <div class="hours hours-text">
+<span>9:00-17:00</span> 
+<span>9:00-17:00</span> 
+<span>9:00-17:00</span> 
+<span>9:00-17:00</span> 
+<span>9:00-17:00</span> 
+<span>9:00-17:00</span> 
+<span> CALLS ONLY</span> 
+    </div>
+    </div>
+</div>
+
+
+<div class="phone">
+    <div class="phone-text">
+        PHONE    <i class="fa fa-phone" aria-hidden="true"></i>
+    </div>
+    
+    <div class="phone-details">
+        Call us now. We would love to help you designing.
+
+        Mobile: +972569634813
+        FAX: 0224789323
+    </div>
+</div>
+
+
+<div class="location">
+    <div class="location-text">
+        ADRESS <i class="fa fa-map-marker" aria-hidden="true"></i>
+    </div>
+    <div class="location-details">
+        <div class="location-details-text">Al-Quds Street,
+            Al-Falah Building 2nd Floor,
+            Ramallah,
+            Palestine. 
+        </div>
+<div class="location-details-button">
+    <a href="http://www.google.com">DIRECTIONS</a>
+
+</div>
+    </div>
+    <div id="map">
+    </div>
+</div>
+
+<!-- FORM -->
+<!-- 
+<div class="form-container">
+    <form action="">
+    <div class="first-name-container">
+    <label for="first-name">First name</label>
+    <br>
+    <input type="text" name="first-name" id="" placeholder="John" required>
+</div>
+    <div class="last-name-container">
+    <label for="last-name">Last name</label>
+    <br>
+    <input type="text" name="last-name" id="" placeholder="Wick" required>
+</div>
+<div class="email-container">
+    <label for="email">E-mail</label>
+    <br>
+    <input type="email" name="email" id="" placeholder="example@e-mail.com" required> 
+</div>
+<div>
+    <input type="submit" value="submit" required>
+</div>
+
+</form>
+</div> -->
+
+<!-- footer -->
+<div class="footer-container">
+    <div class="footer-logo">
+        <a href="index.html">
+            <img src="/images/logo/logo.jpg" alt="Elegants Logo image" >
+        </a>
+    </div>
+
+    <div class="footer1"><p style="color: white;"> Do you have any questions? Call us now <i class="fa fa-phone" aria-hidden="true"></i> +972569634813</p></div>
+    <div class="footer2">
+        <ul>
+     <a href="" id="footer-heads">Contact</a>
+        <a href="">Phone</a>
+        <a href="">Location</a>
+       <a href="">E-mail</a>
+    </ul> 
+    </div>
+    <div class="footer3">
+        <ul>
+            <a href="" id="footer-heads">Services</a>
+               <a href="">Architictural-Based</a>
+               <a href="">Project Managment</a>
+               <a href="">Urban Design</a>
+              <a href="">Interior Design</a>
+              <a href="">Landscape Design</a>
+              <a href="" id="footer-heads" style="margin-top: 6px;">& More.</a>
+           </ul> 
+    </div>
+    <div class="footer4">
+        <ul>
+            <a href="about.html" id="footer-heads">About</a>
+               <a href="about.html">Clients</a>
+               <a href="about.html">Team</a>
+              <a href="about.html">What we do</a>
+              <a href="about.html">Who are we</a>
+           </ul> 
+    </div>
+    <div class="footer5">
+        <ul>
+            <a href="portfolio.html" id="footer-heads">Browse Projects By</a>
+               <a href="portfolio.html">Location</a>
+               <a href="portfolio.html">Type</a>
+              <a href="portfolio.html">Services</a>
+           </ul> 
+    </div>
+    <div class="footer6">
+        <a href=""><i class="fa fa-facebook fa-2x" aria-hidden="true"></a></i>
+        <a href=""><i class="fa fa-whatsapp fa-2x" aria-hidden="true"></a></i>
+        <a href=""><i class="fa fa-instagram fa-2x" aria-hidden="true"></a></i>
+        <a href=""><i class="fa fa-twitter fa-2x" aria-hidden="true"></a></i>
+    </div>
+    <div class="footer7">Copyright © 2010 - 2020 Elegants Decor & Design office, based in Ramallah, Palestine. All Rights Reserved.</div>
+</div>
+
+</body>
+<script src="/JS/sidemenu.js"></script>
+<script src="https://use.fontawesome.com/fa34200b5a.js"></script>
+<script src="/JS/dropdown.js"></script>
+<script src="/JS/JS - contact/map.js"></script>
+<script defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA4jRdHBP9YpDa3ZVw8_rCf-NT_1RNab64&callback=initMap"></script>
+</html>

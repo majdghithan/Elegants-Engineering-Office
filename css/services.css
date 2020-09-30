@@ -1,0 +1,90 @@
+.service-container{
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1em;
+    margin-left: 8vw;
+    margin-right: 8vw;
+    grid-auto-rows: 200px;
+    /* grid-auto-columns: 400px; */
+}
+
+
+.service-text{
+    display: flex;
+    flex-direction: column;
+    white-space: pre-line;
+    padding: 10px;
+    z-index: 3;
+    background-color: whitesmoke;
+    height: 100%;
+    /* visibility: hidden; */
+    /* display: inline; */
+    opacity: 100%;
+    position: relative;
+}
+
+.service-text:hover{
+    background-color: rgb(0, 0, 0);
+}
+.service-text:hover .service-head{
+    color: white;
+}
+.service-text:hover .service-details{
+    color: white;
+}
+
+.service-button{
+    text-align: center;
+    background-color: #FFE01B;
+    padding: 6px;
+    position: absolute;
+    bottom: 10px;
+    left: 6vw;
+    right: 6vw;
+    text-decoration: none;
+    color: black;
+    font-size: 0.8em;
+    visibility: hidden;
+    cursor: pointer;
+}
+
+.service-text:hover .service-button{
+    visibility: initial;
+}
+
+.service-head{
+    color: black;
+    font-weight: 900;
+}
+
+.service-details{
+    color: black;
+}
+
+@media (min-width: 900px){
+    .service-container{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+@media (min-width: 1300px){
+    .service-container{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+
+/* editing the font in mobile*/
+@media(max-width:700px){
+    .service-text{
+        font-size:0.8em;
+    }
+}
+
+
+.line{
+    width: 50px;
+    height: 0px;
+    /* background-color: red; */
+    border-bottom: 4px #FFE01B solid;
+    position: absolute;
+}

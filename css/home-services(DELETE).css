@@ -1,0 +1,143 @@
+.home-featured-services{
+    margin-top: 100px;    
+    /* border-bottom: 2px #FFE01B solid; */
+    /* width: 100%; */
+    /* background-color: red; */
+    text-align: center;
+    /* background-color: red; */
+    padding: 15px 15px 15px 15px;
+    margin-left: 6vw;
+    margin-right: 6vw;
+    /* background-color: rgb(240, 240, 240); */
+    font-size: 15px;
+    border-bottom: 1px #FFE01B solid;
+}
+
+.home-services-cont1{
+    /* padding: 10px; */
+    display: flex;
+    margin-top: 100px;
+    margin-left: 4vw;
+    margin-right: 4vw;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* align-items: stretch; */
+    /* width: 100%; */
+    /* margin-right: 10px; */
+    /* width: 50%; */
+}
+
+.home-service1{
+  margin-bottom: 4vw;
+  background-color: rgb(243, 243, 243);
+ margin-right: 19px;
+  /* display: flexbox; */
+  /* flex: 3; */
+  /* flex-wrap: wrap; */
+  /* justify-content: space-between; */
+
+  /* margin-right: 4vw; */
+  /* padding-top: 20px; */
+  /* display: flex; */
+  /* flex: 1; */
+  /* flex-basis: 40%; */
+  /* justify-content: space-between; */
+  /* flex-direction: column; */
+}
+
+.home-service1-img{
+    /* margin-top: 10px; */
+    width: 100%;
+    height: 200px;
+    background-image: url(/images/going-imgs/first\ going.jpg);
+    background-attachment: scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    
+}
+.home-service2-img{
+    /* margin-top: 10px; */
+    width: 100%;
+    height: 200px;
+    background-image: url(/images/services/second\ service.jpg);
+    background-attachment: scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    cursor: pointer;
+}
+.home-service3-img{
+    /* margin-top: 10px; */
+    width: 100%;
+    height: 200px;
+    background-image: url(/images/services/third\ service.jpg);
+    background-attachment: scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    cursor: pointer;
+}
+.home-service4-img{
+    /* margin-top: 10px; */
+    width: 100%;
+    cursor: pointer;
+    height: 200px;
+    background-image: url(/images//services/forth\ service.jpg);
+    background-attachment: scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    
+}
+
+.home-service1-text{
+    /* background-color: rgb(243, 243, 243); */
+    padding: 10px;
+    text-align: left;
+    width: 100%;
+    word-wrap: normal;
+    /* align-items: stretch; */
+}
+
+.home-service1-text h1{
+    font-size: 1.5em;
+}
+.home-service1-text p{
+  width: 300px;
+}
+
+
+.home-service1-text:hover{
+    background-color: #FFE01B;
+    cursor: pointer;
+    /* border: 1px black solid; */
+}
+.home-service1-img:hover{
+    cursor: pointer;
+}
+
+
+.home-service1:hover{
+    background-color: #FFE01B;
+    /* transition: 1s; */
+}
+
+
+
+/* .home-service4:hover .home-service1-text{
+    background-color: #FFE01B;
+    transition: 1s; 
+}
+    */
+  
+@media screen and (max-width:740px){
+    .home-services-cont1{
+      /* padding: 10px; */
+      display: block;
+      /* margin-top: 100px; */
+      justify-content: space-between;
+      margin-right: 0;
+      /* width: 20%; */
+    }
+}
