@@ -134,7 +134,7 @@
 .project1-container:hover .project1-text{
     background-color: #FFE01B;
     transition: 1s ease;
-    height: 30%;
+    height: 35%;
 }
 .project1-container:hover .project1-text a{
     color: black;
