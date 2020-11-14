@@ -38,6 +38,12 @@ html{
     color: #FFE01B;
 }
 
+@media (max-width:700px){
+    .contact-cover-text{
+        font-size: 1em;
+    }
+}
+
 /* YELLOw DISPLAY */
 .contact-us{
     display: flex;
