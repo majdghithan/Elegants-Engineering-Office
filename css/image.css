@@ -19,7 +19,7 @@
 /* To have the image on full screen always  */
 .home-cover{
     /* margin-top: 60px; */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/images/homecover/kitchen-with-furniture-and-appliances-2724748.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/images/going-imgs/first\ going.jpg);
     width: 100%;
     height: 100vh;   
     position: relative;

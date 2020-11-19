@@ -52,11 +52,12 @@
 .team-img{
     width: 100%;
     height: 100%;
-    background-image: url(/images/team/Optimized-ME\ 2.png);
+    background-image: url(/images/about.jpg);
     background-attachment: scroll;
-    background-position: 40% 10%;
+    background-position-x: center;
+    background-position-y: 30%;
     background-repeat: no-repeat;
-    background-size: cover
+    background-size: cover;
 }
 .team-text{
     text-align: left;
