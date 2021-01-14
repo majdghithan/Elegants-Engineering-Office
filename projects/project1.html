@@ -18,9 +18,12 @@
     
 </head>
 <body style="scroll-behavior: smooth;">
+  <div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v9.0" nonce="Cs8T3M16"></script>
+
   <nav class="navbar">
-      <a href="/index.html" class="logo"><img src="/images/logo/logo.jpg" alt="Elegants Engineering Office Logo"> </a>
-      <div class="logo-text"> <a href="./index.html">Elegants office
+      <a href="../index.html" class="logo"><img src="/images/logo/logo.jpg" alt="Elegants Engineering Office Logo"> </a>
+      <div class="logo-text"> <a href="../index.html">Elegants office
            Design & Decor</a></div>
       
       <ul id="menu">
@@ -28,10 +31,10 @@
           <i class="fa fa-times fa-2x" aria-hidden="true" onclick="closeNav()"></i>
       </span>
       
-      <li><a href="/index.html">HOME</a></li>
-      <li id="currentpage"><a href="/portfolio.html">PORTFOLIO</a></li>
-      <li><a href="/about.html">ABOUT</a></li>
-      <li><a href="/contact.html">CONTACT</a></li>
+      <li><a href="../index.html">HOME</a></li>
+      <li id="currentpage"><a href="../portfolio.html">PORTFOLIO</a></li>
+      <li><a href="../about.html">ABOUT</a></li>
+      <li><a href="../contact.html">CONTACT</a></li>
       <li class="dropdown" onclick="openLan()">
           <a href="#">
           <button onclick="openLan()" ><i class="fa fa-globe" aria-hidden="true" onclick="openLan()">
@@ -40,17 +43,17 @@
           </a>
       <ol class="dropdown-content" id="dropdown-content">
           <a href="index.html">ENGLISH</a>
-          <a href="indexA.html">العربية</a>
+          <!-- <a href="indexA.html">العربية</a> -->
           
       </ol>
       </li>
-      
-      <li class="social"> <ol><a href=""><i class="fa fa-facebook fa-1x" aria-hidden="true" style="color: white;"></a></i>
-          <a href=""><i class="fa fa-whatsapp fa-1x" aria-hidden="true" style="color: white;"></a></i>
-          <a href=""><i class="fa fa-instagram fa-1x" aria-hidden="true" style="color: white;"></a></i>
-          <a href=""><i class="fa fa-twitter fa-1x" aria-hidden="true" style="color: white;"></a></i>
-      </ol>
-      </li>
+      <li class="social" id="social">
+        <ol>
+        <a href="https://www.facebook.com/ElegantsEngineeringOffice" target="_blank"><i class="fa fa-facebook fa-1x" aria-hidden="true" style="color: white;"></a></i>
+        <a href="https://api.whatsapp.com/send/?phone=%2B970597438232&text=Hello+Elegants+Office%21&app_absent=0" target="_blank"><i class="fa fa-whatsapp fa-1x" aria-hidden="true" style="color: white;"></a></i>
+        <a href="https://www.instagram.com/mousgh1/?hl=en" target="_blank"><i class="fa fa-instagram fa-1x" aria-hidden="true" style="color: white;"></a></i>
+    </ol>
+    </li>
       </ul>
   
       <span class="hamburger" onclick="openNav()">
@@ -120,20 +123,25 @@
 </div>
 
  <div>
-      <p style="white-space: pre-line; font-size: 14.5px; overflow: hidden;">
+      <p>
   Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt dicta expedita minus molestias hic, assumenda tempore necessitatibus esse nobis autem quibusdam suscipit exercitationem sint voluptatem tempora sunt delectus, excepturi, error magni adipisci itaque illo! Sit, tenetur nisi aliquam vel aperiam iusto illo placeat dignissimos totam obcaecati consequatur ea tempore quibusdam.</p>
     </div> 
  
 
-  <div>
-    <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FElegantsEngineeringOffice%2Fposts%2F2413983605528948&show_text=true&width=552&height=478&appId" width="552" height="478" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
   </div>
-<div>
+
+<div class="container3">
+  <iframe width="100%" height="500" src="https://www.youtube.com/embed/zNzDc5bxmg4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+  <!-- <div style="margin-right: 8vw;">
+    <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FElegantsEngineeringOffice%2Fposts%2F2413983605528948&show_text=true&width=3002&height=478&appId" width="478" height="478" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+  </div> -->
+<!-- <div>
   <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FElegantsEngineeringOffice%2Fposts%2F2413976002196375&show_text=true&width=552&height=478&appId" width="552" height="478" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
  
-</div>
+</div> -->
 
-</div>
+
 
 
 
@@ -195,5 +203,6 @@
 <script src="https://use.fontawesome.com/fa34200b5a.js"></script>
 <script src="https://kit.fontawesome.com/8285656d59.js" crossorigin="anonymous"></script>
 <script src="/JS/dropdown.js"></script>
+<script src="/JS/sidemenu.js"></script>
 <script src="/JS/slideshow.js"></script>
 </html>

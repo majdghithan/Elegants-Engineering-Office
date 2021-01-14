@@ -21,6 +21,7 @@
     background-position-y: bottom;
     background-repeat: no-repeat;
     background-size: contain;
+    
 }
 #menu li{
   padding: 0;
@@ -66,7 +67,7 @@
     display: block;
   } */
 .social{
-  visibility: initial;
+  
   /* margin-top: 30px; */
   position: absolute;
   bottom: 20px;
@@ -75,6 +76,7 @@
 .social ol{
   text-align: center;
   width: 100%;
+  
 }
 
 .navbar ul li a{
